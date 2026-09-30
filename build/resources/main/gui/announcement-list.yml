@@ -1,0 +1,46 @@
+# /bc list. "content-slots" accepts numbers and ranges. One page shows as many announcements as there are slots.
+title: "lang:gui.list.title"
+rows: 6
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+content-slots: ["10-16", "19-25", "28-34"]
+items:
+  announcement:
+    material: GRAY_CONCRETE
+    name: "lang:gui.list.finished.name"
+    lore: "lang:announcement.lore"
+    active:
+      material: LIME_CONCRETE
+      glow: true
+      name: "lang:gui.list.active.name"
+    finished:
+      material: GRAY_CONCRETE
+      name: "lang:gui.list.finished.name"
+  empty:
+    slot: 22
+    material: PAPER
+    name: "lang:gui.list.empty.name"
+  previous:
+    slot: 48
+    material: ARROW
+    name: "lang:gui.list.previous.name"
+  page:
+    slot: 49
+    material: PAPER
+    name: "lang:gui.list.page.name"
+    lore: "lang:gui.list.page.lore"
+  next:
+    slot: 50
+    material: ARROW
+    name: "lang:gui.list.next.name"
+  delete-all:
+    slot: 53
+    material: RED_CONCRETE
+    name: "lang:gui.list.delete-all.name"
+    lore: "lang:gui.list.delete-all.lore"
+    sound: cancel
+  close:
+    slot: 45
+    material: BARRIER
+    name: "lang:gui.list.close.name"

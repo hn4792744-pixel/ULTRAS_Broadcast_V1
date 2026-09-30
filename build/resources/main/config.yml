@@ -1,0 +1,163 @@
+# ULTRAS_Broadcast_V1  |  Developer: UC_Hussein
+# Every user-facing text lives in messages_<lang>.yml and gui/*.yml (lang: keys).
+
+plugin:
+  name: "ULTRAS_Broadcast_V1"
+  version: "1.0.0"
+  developer: "UC_Hussein"
+
+# Default language of the server and of players who never picked one. en | ar
+language: en
+available-languages:
+  - en
+  - ar
+# Let players switch their own language in /bc_setting.
+player-language-choice: true
+
+branding:
+  name: "ᴜʟᴛʀᴀs"
+  title: "ULTRAS CLUB"
+  separator: "│"
+  gradient:
+    enabled: true
+    start: "#ff0000"
+    end: "#8b0000"
+
+# Colors used by messages (<accent>, <text>, <ok>, <warn>, <err>, <player>) and the interface.
+colors:
+  accent: "#c1121f"
+  text: "#b9b9c0"
+  separator: "#6b6b73"
+  success: "#5fbf7a"
+  warning: "#e0b84a"
+  error: "#d05a5a"
+  info: "#b9b9c0"
+  player: "#ffffff"
+
+symbols:
+  success: "✓"
+  warning: "!"
+  error: "×"
+  info: "•"
+  action: "→"
+
+broadcast:
+  # Duration limits in seconds.
+  minimum-duration: 1
+  maximum-duration: 300
+  # How often the countdown is refreshed (milliseconds, rounded to server ticks of 50 ms).
+  update-interval-ms: 100
+  # Only one global (ALL) announcement can be active at the same time.
+  only-one-global-active: true
+  sound:
+    enabled: true
+    sound: "BLOCK_NOTE_BLOCK_PLING"
+    volume: 1.0
+    pitch: 0.8
+
+# Announcement types. "names" are the words accepted after /bc (the first one is suggested in tab completion).
+types:
+  chat:
+    enabled: true
+    names: [chat, c]
+  screen:
+    enabled: true
+    names: [screen, s, title]
+  hearts:
+    enabled: true
+    names: [hearts, h, actionbar]
+
+chat:
+  line-char: "━"
+  line-length: 30
+  blank-lines-before: 1
+  blank-lines-after: 1
+
+screen:
+  # The title stays fixed; only the timer under it changes.
+  fade-in-ms: 250
+  fade-out-ms: 250
+
+timer:
+  # <accent>-independent color of the "5.2s" counter
+  color: "#b9b9c0"
+  suffix: "s"
+
+personal-announcements:
+  # Allow /bc <type> <text> <seconds> <player> while a global announcement is active.
+  allowed-while-global-active: true
+
+cooldown:
+  # Seconds an administrator must wait between two publications (0 = off).
+  seconds: 0
+
+preview:
+  # Open a Publish / Cancel preview GUI for players before an announcement is published.
+  enabled: false
+
+active-announcement:
+  # false: an active announcement ends when the server stops.
+  # true : it is restored after a restart while time remains.
+  restore-after-restart: false
+
+delete-all:
+  # false: "Delete All" keeps the active announcement. true: it cancels it first.
+  cancel-active: false
+
+storage:
+  type: sqlite
+  file: "data.db"
+  max-announcements: 500
+  # true: publishing at the limit deletes the oldest finished announcement. false: publishing is refused.
+  delete-oldest-when-full: true
+  auto-delete:
+    enabled: false
+    after-days: 30
+  # Hard-delete rows that were deleted from the list after this many days (0 = keep forever as audit records).
+  purge-deleted-after-days: 0
+
+player-defaults:
+  sounds: true
+  chat: true
+  screen: true
+  hearts: true
+
+gui:
+  # Refresh interval (ticks) of open lists / active announcement menus. 0 disables refreshing.
+  refresh-ticks: 10
+  # Ignore clicks that arrive faster than this (double click protection).
+  click-cooldown-ms: 250
+  # Maximum characters of the announcement text shown in item lore.
+  message-preview-length: 80
+
+gui-sounds:
+  enabled: true
+  click:   { sound: "UI_BUTTON_CLICK",             volume: 0.4, pitch: 1.2 }
+  success: { sound: "BLOCK_NOTE_BLOCK_CHIME",     volume: 0.6, pitch: 1.5 }
+  error:   { sound: "BLOCK_NOTE_BLOCK_BASS",      volume: 0.5, pitch: 0.6 }
+  publish: { sound: "BLOCK_AMETHYST_BLOCK_CHIME", volume: 0.7, pitch: 1.2 }
+  cancel:  { sound: "BLOCK_LEVER_CLICK",          volume: 0.5, pitch: 0.9 }
+
+format:
+  date: "yyyy-MM-dd"
+  time: "HH:mm:ss"
+  # "system" or a zone id such as "Asia/Baghdad"
+  timezone: "system"
+
+logging:
+  enabled: true
+  console: true
+  file: true
+  keep-days: 30
+
+# Permission nodes (changing them registers the new nodes automatically; OP keeps them by default).
+permissions:
+  use: "ultrasbroadcast.use"
+  admin: "ultrasbroadcast.admin"
+  publish: "ultrasbroadcast.publish"
+  cancel: "ultrasbroadcast.cancel"
+  list: "ultrasbroadcast.list"
+  delete: "ultrasbroadcast.delete"
+  settings: "ultrasbroadcast.settings"
+  reload: "ultrasbroadcast.reload"
+  bypass-cooldown: "ultrasbroadcast.bypass.cooldown"

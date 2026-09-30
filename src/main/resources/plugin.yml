@@ -1,0 +1,54 @@
+name: ULTRAS_Broadcast_V1
+prefix: ULTRAS_Broadcast
+version: '${version}'
+main: me.uc_hussein.ultrasbroadcast.UltrasBroadcastPlugin
+api-version: '1.21'
+author: UC_Hussein
+description: Premium administrative announcement system (chat, screen, hearts) by ULTRAS.
+commands:
+  bc:
+    description: Publish and manage administrative announcements.
+    usage: /bc <type> <text> <seconds> [player|all]
+  uc_bc:
+    description: Same as /bc (ULTRAS admin prefix).
+    usage: /uc_bc <type> <text> <seconds> [player|all]
+  bc_setting:
+    description: Open your announcement settings.
+    usage: /bc_setting
+permissions:
+  ultrasbroadcast.use:
+    description: Use /bc and /uc_bc.
+    default: op
+  ultrasbroadcast.publish:
+    description: Publish announcements.
+    default: op
+  ultrasbroadcast.cancel:
+    description: Cancel the active announcement.
+    default: op
+  ultrasbroadcast.list:
+    description: Open the announcement list.
+    default: op
+  ultrasbroadcast.delete:
+    description: Delete announcements.
+    default: op
+  ultrasbroadcast.settings:
+    description: Open /bc_setting.
+    default: true
+  ultrasbroadcast.reload:
+    description: Reload the plugin.
+    default: op
+  ultrasbroadcast.bypass.cooldown:
+    description: Ignore the publish cooldown.
+    default: op
+  ultrasbroadcast.admin:
+    description: Every ULTRAS_Broadcast_V1 permission.
+    default: op
+    children:
+      ultrasbroadcast.use: true
+      ultrasbroadcast.publish: true
+      ultrasbroadcast.cancel: true
+      ultrasbroadcast.list: true
+      ultrasbroadcast.delete: true
+      ultrasbroadcast.settings: true
+      ultrasbroadcast.reload: true
+      ultrasbroadcast.bypass.cooldown: true

@@ -1,0 +1,220 @@
+# ULTRAS_Broadcast_V1 - Arabic messages. MiniMessage tags: <accent> <text> <ok> <warn> <err> <brand> <prefix>
+# Chat messages get PREFIX + symbol automatically.
+
+"no-permission": "ليس لديك صلاحية لفعل ذلك"
+"players-only": "هذا الأمر للاعبين فقط"
+"unknown-type": "نوع الإعلان غير معروف"
+"something-wrong": "حدث خطأ ما، حاول مرة أخرى"
+"published": "تم نشر الإعلان بنجاح"
+"published-player": "تم إرسال الإعلان إلى <player>"
+"republished": "تمت إعادة نشر الإعلان #<id> في <location>"
+"already-active": "يوجد إعلان آخر فعال حاليًا <dark_gray>•</dark_gray> متبقي <remaining>s"
+"personal-blocked": "الإعلانات الشخصية متوقفة أثناء وجود إعلان عام فعال"
+"player-busy": "<player> لديه إعلان فعال بالفعل"
+"player-not-found": "اللاعب <player> غير موجود"
+"empty-text": "نص الإعلان لا يمكن أن يكون فارغًا"
+"invalid-number": "المدة يجب أن تكون عددًا بالثواني"
+"duration-range": "المدة يجب أن تكون بين <min> و <max> ثانية"
+"type-disabled": "هذا النوع من الإعلانات معطّل"
+"cooldown": "انتظر <seconds>s قبل النشر مرة أخرى"
+"list-full": "قائمة الإعلانات ممتلئة"
+"publish-blocked": "تم منع النشر بواسطة إضافة أخرى"
+"cancelled": "تم إلغاء الإعلان"
+"cancelled-player": "تم إلغاء إعلان <player>"
+"cancel-blocked": "تم منع الإلغاء بواسطة إضافة أخرى"
+"no-active": "لا يوجد إعلان فعال"
+"deleted": "تم حذف الإعلان #<id>"
+"deleted-all": "تم حذف <count> إعلان"
+"delete-active": "ألغِ الإعلان الفعال قبل حذفه"
+"delete-blocked": "تم منع الحذف بواسطة إضافة أخرى"
+"not-found": "الإعلان غير موجود"
+"reloaded": "تمت إعادة تحميل الإعدادات"
+"settings-reset": "تمت إعادة ضبط إعداداتك"
+"language-changed": "تم تغيير اللغة إلى <language>"
+"preview-cancelled": "تم إلغاء المعاينة"
+"help":
+  "header": "<prefix> <accent>الإعلانات"
+  "publish": "نشر إعلان"
+  "types": "الأنواع: <types>"
+  "cancel": "إلغاء الإعلان الفعال"
+  "list": "فتح قائمة الإعلانات"
+  "reload": "إعادة تحميل الإضافة"
+  "settings": "إعدادات الإعلانات الخاصة بك"
+"chat":
+  "heading": "<prefix> <text>إعلان إداري"
+"state-enabled": "<ok>✓ مفعّل"
+"state-disabled": "<err>× معطّل"
+"status":
+  "active": "<ok>فعال"
+  "finished": "<text>منتهي"
+  "cancelled": "<text>ملغي"
+"type":
+  "chat": "الشات"
+  "screen": "وسط الشاشة"
+  "hearts": "فوق القلوب"
+"target-all": "الجميع"
+"language-name": "العربية"
+"announcement":
+  "lore":
+  - "<text>الرقم: <white>#<id>"
+  - "<text>النص: <white><message>"
+  - "<text>النوع: <white><type>"
+  - "<text>مكان النشر: <white><location>"
+  - "<text>المدة: <white><duration>"
+  - "[active]<text>المتبقي: <white><remaining>"
+  - "<text>وقت النشر: <white><time> <dark_gray>•</dark_gray> <white><date>"
+  - "[finished]<text>انتهى: <white><ended>"
+  - "<text>الناشر: <white><creator>"
+  - "<dark_gray>UUID: <creator_uuid>"
+  - "<text>المستهدف: <white><target>"
+  - "<text>الحالة: <status>"
+  - "<text>إعادة النشر: <white><republished> مرة"
+  - "<text>المشاهدات: <white><views>"
+  - ""
+  - "[active]<accent>→ اضغط للإدارة"
+  - "[finished]<accent>→ اضغط للفتح"
+"gui":
+  "settings":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>إعدادات الإعلانات"
+    "info":
+      "name": "<accent>إعدادات الإعلانات"
+      "lore":
+      - "<text>تحكم في طريقة ظهور"
+      - "<text>الإعلانات الإدارية لك."
+      - ""
+      - "<dark_gray>• <text>الأصوات"
+      - "<dark_gray>• <text>الشات"
+      - "<dark_gray>• <text>وسط الشاشة"
+      - "<dark_gray>• <text>فوق القلوب"
+      - "<dark_gray>• <text>اللغة"
+    "language":
+      "name": "<accent>اللغة"
+      "lore":
+      - "<text>الحالية: <white><language>"
+      - ""
+      - "<accent>→ اضغط للتبديل"
+    "sounds":
+      "name": "<accent>أصوات الإعلانات"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>تشغيل صوت عند بدء الإعلان."
+      - ""
+      - "<accent>→ اضغط للتبديل"
+    "chat":
+      "name": "<accent>إعلانات الشات"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>عرض الإعلانات في الشات."
+      - ""
+      - "<accent>→ اضغط للتبديل"
+    "screen":
+      "name": "<accent>إعلانات وسط الشاشة"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>عرض الإعلانات في وسط الشاشة."
+      - ""
+      - "<accent>→ اضغط للتبديل"
+    "hearts":
+      "name": "<accent>إعلانات فوق القلوب"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>عرض الإعلانات فوق القلوب."
+      - ""
+      - "<accent>→ اضغط للتبديل"
+    "reset":
+      "name": "<err>إعادة الضبط"
+      "lore":
+      - "<text>استرجاع كل إعدادات"
+      - "<text>الإعلانات إلى الافتراضي."
+    "exit":
+      "name": "<text>خروج"
+  "list":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>الإعلانات"
+    "active":
+      "name": "<ok>■ <white>إعلان فعال <text>#<id>"
+    "finished":
+      "name": "<text>■ إعلان منتهي #<id>"
+    "previous":
+      "name": "<accent>← السابق"
+    "next":
+      "name": "<accent>التالي →"
+    "page":
+      "name": "<text>الصفحة <white><page> <dark_gray>/</dark_gray> <white><pages>"
+      "lore":
+      - "<text>عدد الإعلانات: <white><count>"
+    "delete-all":
+      "name": "<err>حذف الكل"
+      "lore":
+      - "<text>حذف كل الإعلانات المنتهية"
+      - "<text>من القائمة."
+    "close":
+      "name": "<text>إغلاق"
+    "empty":
+      "name": "<text>لا توجد إعلانات بعد"
+  "details":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>تفاصيل الإعلان"
+    "info":
+      "name": "<accent>الإعلان #<id>"
+    "republish":
+      "name": "<ok>إعادة النشر"
+      "lore":
+      - "<text>اختر مكان النشر من جديد."
+    "delete":
+      "name": "<err>حذف"
+      "lore":
+      - "<text>حذفه من القائمة."
+    "back":
+      "name": "<text>رجوع"
+  "active":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>إعلان فعال"
+    "info":
+      "name": "<ok>الإعلان فعال"
+    "cancel":
+      "name": "<err>إلغاء النشر"
+      "lore":
+      - "<text>إيقاف الإعلان فورًا."
+  "publish":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>النشر"
+    "info":
+      "name": "<accent>الحالي: <white><location>"
+      "lore":
+      - "<text>الإعلان #<id>"
+      - "<text>اختر المكان ثم اضغط نشر."
+    "location":
+      "name": "<white><location>"
+      "lore":
+      - "<accent>→ اضغط للاختيار"
+    "publish":
+      "name": "<ok>نشر"
+      "lore":
+      - "<text>النشر في: <white><location>"
+    "back":
+      "name": "<text>رجوع"
+  "delete":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>حذف الكل"
+    "info":
+      "name": "<err>حذف كل الإعلانات؟"
+      "lore":
+      - "<text>الإعلانات في القائمة: <white><count>"
+      - "<text>لا يمكن التراجع عن ذلك."
+    "confirm":
+      "name": "<err>حذف"
+    "back":
+      "name": "<text>رجوع"
+  "preview":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>معاينة"
+    "info":
+      "name": "<accent>معاينة"
+      "lore":
+      - "<text>النوع: <white><type>"
+      - "<text>النص: <white><message>"
+      - "<text>المدة: <white><duration>"
+      - "<text>المستهدف: <white><target>"
+    "confirm":
+      "name": "<ok>نشر"
+    "back":
+      "name": "<err>إلغاء"

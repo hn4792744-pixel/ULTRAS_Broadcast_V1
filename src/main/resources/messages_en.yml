@@ -1,0 +1,220 @@
+# ULTRAS_Broadcast_V1 - English messages. MiniMessage tags: <accent> <text> <ok> <warn> <err> <brand> <prefix>
+# Chat messages get PREFIX + symbol automatically.
+
+"no-permission": "ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴅᴏ ᴛʜᴀᴛ"
+"players-only": "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴘʟᴀʏᴇʀs"
+"unknown-type": "ᴜɴᴋɴᴏᴡɴ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴛʏᴘᴇ"
+"something-wrong": "sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ"
+"published": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴘᴜʙʟɪsʜᴇᴅ"
+"published-player": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ sᴇɴᴛ ᴛᴏ <player>"
+"republished": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ #<id> ɪs ɴᴏᴡ ʟɪᴠᴇ ɪɴ <location>"
+"already-active": "ᴀɴᴏᴛʜᴇʀ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴇ <dark_gray>•</dark_gray> <remaining>s ʟᴇғᴛ"
+"personal-blocked": "ᴘᴇʀsᴏɴᴀʟ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs ᴀʀᴇ ᴘᴀᴜsᴇᴅ ᴡʜɪʟᴇ ᴀ ɢʟᴏʙᴀʟ ᴏɴᴇ ɪs ᴀᴄᴛɪᴠᴇ"
+"player-busy": "<player> ᴀʟʀᴇᴀᴅʏ ʜᴀs ᴀɴ ᴀᴄᴛɪᴠᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ"
+"player-not-found": "ᴘʟᴀʏᴇʀ <player> ᴡᴀs ɴᴏᴛ ғᴏᴜɴᴅ"
+"empty-text": "ᴛʜᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴛᴇxᴛ ᴄᴀɴɴᴏᴛ ʙᴇ ᴇᴍᴘᴛʏ"
+"invalid-number": "ᴛʜᴇ ᴅᴜʀᴀᴛɪᴏɴ ᴍᴜsᴛ ʙᴇ ᴀ ɴᴜᴍʙᴇʀ ᴏғ sᴇᴄᴏɴᴅs"
+"duration-range": "ᴅᴜʀᴀᴛɪᴏɴ ᴍᴜsᴛ ʙᴇ ʙᴇᴛᴡᴇᴇɴ <min> ᴀɴᴅ <max> sᴇᴄᴏɴᴅs"
+"type-disabled": "ᴛʜɪs ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴛʏᴘᴇ ɪs ᴅɪsᴀʙʟᴇᴅ"
+"cooldown": "ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ <seconds>s ʙᴇғᴏʀᴇ ᴘᴜʙʟɪsʜɪɴɢ ᴀɢᴀɪɴ"
+"list-full": "ᴛʜᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ʟɪsᴛ ɪs ғᴜʟʟ"
+"publish-blocked": "ᴘᴜʙʟɪsʜɪɴɢ ᴡᴀs ʙʟᴏᴄᴋᴇᴅ ʙʏ ᴀɴᴏᴛʜᴇʀ ᴘʟᴜɢɪɴ"
+"cancelled": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴄᴀɴᴄᴇʟʟᴇᴅ"
+"cancelled-player": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ғᴏʀ <player> ᴄᴀɴᴄᴇʟʟᴇᴅ"
+"cancel-blocked": "ᴛʜᴇ ᴄᴀɴᴄᴇʟʟᴀᴛɪᴏɴ ᴡᴀs ʙʟᴏᴄᴋᴇᴅ ʙʏ ᴀɴᴏᴛʜᴇʀ ᴘʟᴜɢɪɴ"
+"no-active": "ɴᴏ ᴀᴄᴛɪᴠᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ"
+"deleted": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ #<id> ᴅᴇʟᴇᴛᴇᴅ"
+"deleted-all": "<count> ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs ᴅᴇʟᴇᴛᴇᴅ"
+"delete-active": "ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴀᴄᴛɪᴠᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ʙᴇғᴏʀᴇ ᴅᴇʟᴇᴛɪɴɢ ɪᴛ"
+"delete-blocked": "ᴛʜᴇ ᴅᴇʟᴇᴛɪᴏɴ ᴡᴀs ʙʟᴏᴄᴋᴇᴅ ʙʏ ᴀɴᴏᴛʜᴇʀ ᴘʟᴜɢɪɴ"
+"not-found": "ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ɴᴏᴛ ғᴏᴜɴᴅ"
+"reloaded": "ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ʀᴇʟᴏᴀᴅᴇᴅ"
+"settings-reset": "ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ʜᴀᴠᴇ ʙᴇᴇɴ ʀᴇsᴇᴛ"
+"language-changed": "ʟᴀɴɢᴜᴀɢᴇ ᴄʜᴀɴɢᴇᴅ ᴛᴏ <language>"
+"preview-cancelled": "ᴘʀᴇᴠɪᴇᴡ ᴄᴀɴᴄᴇʟʟᴇᴅ"
+"help":
+  "header": "<prefix> <accent>ʙʀᴏᴀᴅᴄᴀsᴛ"
+  "publish": "ᴘᴜʙʟɪsʜ ᴀɴ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ"
+  "types": "ᴛʏᴘᴇs: <types>"
+  "cancel": "ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴀᴄᴛɪᴠᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ"
+  "list": "ᴏᴘᴇɴ ᴛʜᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ʟɪsᴛ"
+  "reload": "ʀᴇʟᴏᴀᴅ ᴛʜᴇ ᴘʟᴜɢɪɴ"
+  "settings": "ʏᴏᴜʀ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ sᴇᴛᴛɪɴɢs"
+"chat":
+  "heading": "<prefix> <text>ᴀᴅᴍɪɴ ᴀɴɴᴏᴜɴᴄᴇ"
+"state-enabled": "<ok>✓ ᴇɴᴀʙʟᴇᴅ"
+"state-disabled": "<err>× ᴅɪsᴀʙʟᴇᴅ"
+"status":
+  "active": "<ok>active"
+  "finished": "<text>finished"
+  "cancelled": "<text>cancelled"
+"type":
+  "chat": "Chat"
+  "screen": "Screen"
+  "hearts": "Hearts"
+"target-all": "ALL"
+"language-name": "English"
+"announcement":
+  "lore":
+  - "<text>ID: <white>#<id>"
+  - "<text>Message: <white><message>"
+  - "<text>Type: <white><type>"
+  - "<text>Published in: <white><location>"
+  - "<text>Duration: <white><duration>"
+  - "[active]<text>Remaining: <white><remaining>"
+  - "<text>Published: <white><time> <dark_gray>•</dark_gray> <white><date>"
+  - "[finished]<text>Ended: <white><ended>"
+  - "<text>By: <white><creator>"
+  - "<dark_gray>UUID: <creator_uuid>"
+  - "<text>Target: <white><target>"
+  - "<text>Status: <status>"
+  - "<text>Republished: <white><republished>x"
+  - "<text>Views: <white><views>"
+  - ""
+  - "[active]<accent>→ click to manage"
+  - "[finished]<accent>→ click to open"
+"gui":
+  "settings":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ sᴇᴛᴛɪɴɢs"
+    "info":
+      "name": "<accent>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ sᴇᴛᴛɪɴɢs"
+      "lore":
+      - "<text>Manage how administrative"
+      - "<text>announcements appear to you."
+      - ""
+      - "<dark_gray>• <text>Sounds"
+      - "<dark_gray>• <text>Chat"
+      - "<dark_gray>• <text>Screen"
+      - "<dark_gray>• <text>Hearts"
+      - "<dark_gray>• <text>Language"
+    "language":
+      "name": "<accent>ʟᴀɴɢᴜᴀɢᴇ"
+      "lore":
+      - "<text>Current: <white><language>"
+      - ""
+      - "<accent>→ click to switch"
+    "sounds":
+      "name": "<accent>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ sᴏᴜɴᴅs"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>Play a sound when an announcement starts."
+      - ""
+      - "<accent>→ click to toggle"
+    "chat":
+      "name": "<accent>ᴄʜᴀᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>Show announcements in the chat."
+      - ""
+      - "<accent>→ click to toggle"
+    "screen":
+      "name": "<accent>sᴄʀᴇᴇɴ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>Show announcements in the middle of the screen."
+      - ""
+      - "<accent>→ click to toggle"
+    "hearts":
+      "name": "<accent>ʜᴇᴀʀᴛs ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs"
+      "lore":
+      - "<state>"
+      - ""
+      - "<text>Show announcements above the hearts."
+      - ""
+      - "<accent>→ click to toggle"
+    "reset":
+      "name": "<err>ʀᴇsᴇᴛ sᴇᴛᴛɪɴɢs"
+      "lore":
+      - "<text>Restore all your announcement"
+      - "<text>settings to the defaults."
+    "exit":
+      "name": "<text>ᴇxɪᴛ"
+  "list":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs"
+    "active":
+      "name": "<ok>■ <white>ᴀᴄᴛɪᴠᴇ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ <text>#<id>"
+    "finished":
+      "name": "<text>■ ғɪɴɪsʜᴇᴅ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ #<id>"
+    "previous":
+      "name": "<accent>← ᴘʀᴇᴠɪᴏᴜs"
+    "next":
+      "name": "<accent>ɴᴇxᴛ →"
+    "page":
+      "name": "<text>ᴘᴀɢᴇ <white><page> <dark_gray>/</dark_gray> <white><pages>"
+      "lore":
+      - "<text>Announcements: <white><count>"
+    "delete-all":
+      "name": "<err>ᴅᴇʟᴇᴛᴇ ᴀʟʟ"
+      "lore":
+      - "<text>Removes every finished announcement"
+      - "<text>from the list."
+    "close":
+      "name": "<text>ᴄʟᴏsᴇ"
+    "empty":
+      "name": "<text>ɴᴏ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs ʏᴇᴛ"
+  "details":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴀɴɴᴏᴜɴᴄᴇ ᴅᴇᴛᴀɪʟs"
+    "info":
+      "name": "<accent>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ #<id>"
+    "republish":
+      "name": "<ok>ʀᴇᴘᴜʙʟɪsʜ"
+      "lore":
+      - "<text>Choose where to publish it again."
+    "delete":
+      "name": "<err>ᴅᴇʟᴇᴛᴇ"
+      "lore":
+      - "<text>Removes it from the list."
+    "back":
+      "name": "<text>ʙᴀᴄᴋ"
+  "active":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴀᴄᴛɪᴠᴇ"
+    "info":
+      "name": "<ok>ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ ᴀᴄᴛɪᴠᴇ"
+    "cancel":
+      "name": "<err>ᴄᴀɴᴄᴇʟ ᴘᴜʙʟɪᴄᴀᴛɪᴏɴ"
+      "lore":
+      - "<text>Stops the announcement now."
+  "publish":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴘᴜʙʟɪsʜ"
+    "info":
+      "name": "<accent>ᴄᴜʀʀᴇɴᴛ: <white><location>"
+      "lore":
+      - "<text>Announcement #<id>"
+      - "<text>Pick a place, then press Publish."
+    "location":
+      "name": "<white><location>"
+      "lore":
+      - "<accent>→ click to select"
+    "publish":
+      "name": "<ok>ᴘᴜʙʟɪsʜ"
+      "lore":
+      - "<text>Publish in: <white><location>"
+    "back":
+      "name": "<text>ʙᴀᴄᴋ"
+  "delete":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴅᴇʟᴇᴛᴇ ᴀʟʟ"
+    "info":
+      "name": "<err>ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs?"
+      "lore":
+      - "<text>Announcements in the list: <white><count>"
+      - "<text>This cannot be undone."
+    "confirm":
+      "name": "<err>ᴅᴇʟᴇᴛᴇ"
+    "back":
+      "name": "<text>ʙᴀᴄᴋ"
+  "preview":
+    "title": "<brand> <dark_gray>│</dark_gray> <text>ᴘʀᴇᴠɪᴇᴡ"
+    "info":
+      "name": "<accent>ᴘʀᴇᴠɪᴇᴡ"
+      "lore":
+      - "<text>Type: <white><type>"
+      - "<text>Message: <white><message>"
+      - "<text>Duration: <white><duration>"
+      - "<text>Target: <white><target>"
+    "confirm":
+      "name": "<ok>ᴘᴜʙʟɪsʜ"
+    "back":
+      "name": "<err>ᴄᴀɴᴄᴇʟ"

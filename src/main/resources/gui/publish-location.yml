@@ -1,0 +1,43 @@
+# Republish: choose where, then Publish. Variants: selected / unselected.
+title: "lang:gui.publish.title"
+rows: 3
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+items:
+  info:
+    slot: 4
+    material: PAPER
+    name: "lang:gui.publish.info.name"
+    lore: "lang:gui.publish.info.lore"
+  chat:
+    slot: 11
+    material: OAK_SIGN
+    name: "lang:gui.publish.location.name"
+    lore: "lang:gui.publish.location.lore"
+    selected: { glow: true }
+    unselected: { glow: false }
+  screen:
+    slot: 13
+    material: ENDER_EYE
+    name: "lang:gui.publish.location.name"
+    lore: "lang:gui.publish.location.lore"
+    selected: { glow: true }
+    unselected: { glow: false }
+  hearts:
+    slot: 15
+    material: RED_DYE
+    name: "lang:gui.publish.location.name"
+    lore: "lang:gui.publish.location.lore"
+    selected: { glow: true }
+    unselected: { glow: false }
+  publish:
+    slot: 22
+    material: EMERALD_BLOCK
+    name: "lang:gui.publish.publish.name"
+    lore: "lang:gui.publish.publish.lore"
+    sound: publish
+  back:
+    slot: 18
+    material: ARROW
+    name: "lang:gui.publish.back.name"

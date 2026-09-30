@@ -1,0 +1,56 @@
+# Player settings menu (/bc_setting). Text values "lang:key" are read from messages_<lang>.yml,
+# or write literal MiniMessage text. Slots are 0-based. Item variants: enabled / disabled.
+title: "lang:gui.settings.title"
+rows: 4
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+items:
+  info:
+    slot: 4
+    material: BOOK
+    name: "lang:gui.settings.info.name"
+    lore: "lang:gui.settings.info.lore"
+  language:
+    slot: 10
+    material: WRITABLE_BOOK
+    name: "lang:gui.settings.language.name"
+    lore: "lang:gui.settings.language.lore"
+  sounds:
+    slot: 12
+    material: BELL
+    name: "lang:gui.settings.sounds.name"
+    lore: "lang:gui.settings.sounds.lore"
+    enabled: { glow: true }
+    disabled: { material: GRAY_DYE }
+  chat:
+    slot: 13
+    material: EMERALD
+    name: "lang:gui.settings.chat.name"
+    lore: "lang:gui.settings.chat.lore"
+    enabled: { glow: true }
+    disabled: { material: GRAY_DYE }
+  screen:
+    slot: 14
+    material: EMERALD
+    name: "lang:gui.settings.screen.name"
+    lore: "lang:gui.settings.screen.lore"
+    enabled: { glow: true }
+    disabled: { material: GRAY_DYE }
+  hearts:
+    slot: 15
+    material: EMERALD
+    name: "lang:gui.settings.hearts.name"
+    lore: "lang:gui.settings.hearts.lore"
+    enabled: { glow: true }
+    disabled: { material: GRAY_DYE }
+  reset:
+    slot: 29
+    material: RED_CONCRETE
+    name: "lang:gui.settings.reset.name"
+    lore: "lang:gui.settings.reset.lore"
+    sound: cancel
+  exit:
+    slot: 33
+    material: BARRIER
+    name: "lang:gui.settings.exit.name"

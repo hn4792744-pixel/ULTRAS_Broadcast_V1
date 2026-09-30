@@ -1,0 +1,23 @@
+# Running announcement: information and Cancel Publication.
+title: "lang:gui.active.title"
+rows: 3
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+items:
+  info:
+    slot: 13
+    material: PAPER
+    glow: true
+    name: "lang:gui.active.info.name"
+    lore: "lang:announcement.lore"
+  cancel:
+    slot: 20
+    material: RED_CONCRETE
+    name: "lang:gui.active.cancel.name"
+    lore: "lang:gui.active.cancel.lore"
+    sound: cancel
+  back:
+    slot: 24
+    material: ARROW
+    name: "lang:gui.details.back.name"
